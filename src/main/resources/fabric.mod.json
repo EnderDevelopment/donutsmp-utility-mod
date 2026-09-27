@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "donutsmputilitymod",
+    "version": "1.0.0",
+    "name": "DonutSMP Utility Mod",
+    "description": "A utility mod for private testing worlds",
+    "authors": ["rudmanfinn"],
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "com.rudmanfinn.donutsmputilitymod.DonutSMPUtilityMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.20.4",
+        "fabric-api": "*"
+    }
+}
